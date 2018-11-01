@@ -8,10 +8,10 @@ Parts
 	- https://amzn.to/2EYq2Bq
 
 - Flora RGB Smart NeoPixel version 2
-	[4] https://www.adafruit.com/product/1260
-	[4] https://amzn.to/2Rw1IbG
-	[20] https://www.adafruit.com/product/1559
-	[20] https://amzn.to/2SG398y
+	- [4] https://www.adafruit.com/product/1260
+	- [4] https://amzn.to/2Rw1IbG
+	- [20] https://www.adafruit.com/product/1559
+	- [20] https://amzn.to/2SG398y
 
 - Any wireless dongle to connect from the PC to the Feather M0
 
