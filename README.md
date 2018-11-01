@@ -32,9 +32,9 @@ https://learn.adafruit.com/adafruit-feather-m0-wifi-atwinc1500/updating-firmware
 ---
 Wiring the lights
 
-Feather M0 - 3V        ->  NeoPixel +
-Feather M0 - GND     ->  NeoPixel -
-Feather M0 - PIN 6   ->  NeoPixel arrow pointing to middle
+- Feather M0 - 3V      ->  NeoPixel +
+- Feather M0 - GND     ->  NeoPixel -
+- Feather M0 - PIN 6   ->  NeoPixel arrow pointing to middle
 
 [I'll have a photo of this up if needed.]
 
