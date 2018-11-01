@@ -4,8 +4,8 @@ LED Cat Ears Version 0.000000000000001
 Parts
 
 - Adafruit Feather M0 WiFi
-	https://www.adafruit.com/product/3010
-	https://amzn.to/2EYq2Bq
+	- https://www.adafruit.com/product/3010
+	- https://amzn.to/2EYq2Bq
 
 - Flora RGB Smart NeoPixel version 2
 	[4] https://www.adafruit.com/product/1260
