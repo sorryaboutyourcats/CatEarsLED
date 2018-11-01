@@ -52,3 +52,9 @@ Loading up the web server
 ---
 If you need additional help with this harass me on Twitter.
 =D
+
+---
+Useful links
+
+NeoPixel Guide
+https://learn.adafruit.com/adafruit-neopixel-uberguide?view=all
