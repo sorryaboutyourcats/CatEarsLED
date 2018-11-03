@@ -122,8 +122,11 @@ void loop() {
             client.print("Click <a href=\"/T\">here</a> turn the LED teal<br>");
             client.print("Click <a href=\"/Y\">here</a> turn the LED yellow<br>");
             client.print("Click <a href=\"/U\">here</a> turn the LED purple<br>");
-            client.print("Click <a href=\"/Q\">here</a> turn the LED random<br>");
-
+            client.print("Click <a href=\"/Q\">here</a> turn the LED random<br><br>");
+            client.print("Click <a href=\"/1\">here</a> turn the LED police pattern<br>");
+            client.print("Click <a href=\"/2\">here</a> turn the LED random pattern<br><br>");
+            client.print("Click <a href=\"/0\">here</a> turn the LED off<br>");
+            
             // The HTTP response ends with another blank line:
             client.println();
             // break out of the while loop:
@@ -237,6 +240,64 @@ void loop() {
           pixels.setPixelColor(3, pixels.Color(randNumberR, randNumberG, randNumberB));
           pixels.show();
         }
+         if (currentLine.endsWith("GET /1")) {
+          for (int police=0; police <=3; police++){
+          pixels.setPixelColor(0, pixels.Color(200,0,0));
+          pixels.show();
+          pixels.setPixelColor(1, pixels.Color(200,0,0));
+          pixels.show();
+          pixels.setPixelColor(2, pixels.Color(0,0,200));
+          pixels.show();
+          pixels.setPixelColor(3, pixels.Color(0,0,200));
+          pixels.show();
+          delay(500);
+          pixels.setPixelColor(2, pixels.Color(200,0,0));
+          pixels.show();
+          pixels.setPixelColor(3, pixels.Color(200,0,0));
+          pixels.show();
+          pixels.setPixelColor(0, pixels.Color(0,0,200));
+          pixels.show();
+          pixels.setPixelColor(1, pixels.Color(0,0,200));
+          pixels.show();                    
+          delay(500);
+        }
+       }
+         if (currentLine.endsWith("GET /2")) {
+          for (int randomLights=0; randomLights <=6; randomLights++){
+          randNumberR = random(0, 150);   //Random RED value
+          randNumberG = random(0, 200);   //Random GREEN value
+          randNumberB = random(0, 150);   //Random BLUE value
+          pixels.setPixelColor(0, pixels.Color(randNumberR, randNumberG, randNumberB));
+          pixels.show();
+          randNumberR = random(0, 150);   //Random RED value
+          randNumberG = random(0, 150);   //Random GREEN value
+          randNumberB = random(0, 200);   //Random BLUE value
+          pixels.setPixelColor(1, pixels.Color(randNumberR, randNumberG, randNumberB));
+          pixels.show();
+          randNumberR = random(0, 200);   //Random RED value
+          randNumberG = random(0, 150);   //Random GREEN value
+          randNumberB = random(0, 150);   //Random BLUE value
+          pixels.setPixelColor(2, pixels.Color(randNumberR, randNumberG, randNumberB));
+          pixels.show();
+          randNumberR = random(0, 200);   //Random RED value
+          randNumberG = random(0, 150);   //Random GREEN value
+          randNumberB = random(0, 200);   //Random BLUE value
+          pixels.setPixelColor(3, pixels.Color(randNumberR, randNumberG, randNumberB));
+          pixels.show();
+          delay(500);
+         }
+        }
+       
+        if (currentLine.endsWith("GET /0")) {
+          pixels.setPixelColor(1, pixels.Color(0,0,0));
+          pixels.show();
+          pixels.setPixelColor(0, pixels.Color(0,0,0));
+          pixels.show();
+          pixels.setPixelColor(3, pixels.Color(0,0,0));
+          pixels.show();
+          pixels.setPixelColor(2, pixels.Color(0,0,0));
+          pixels.show();                    
+       }
       }
     }
     // close the connection:
