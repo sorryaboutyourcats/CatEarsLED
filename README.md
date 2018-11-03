@@ -1,5 +1,7 @@
 LED Cat Ears Version 0.000000000000001
 
+<img src="https://i.imgur.com/RT1uAXD.jpg" alt="Lychi using the cat ears">
+
 ---
 Parts
 
@@ -50,6 +52,16 @@ Loading up the web server
 - Open 192.168.1.1 on your browser
 
 ---
+Setting up web requests in Mix It Up
+
+- Set up your board and all that good stuff
+- Add Command, Advanced Command
+- Add Web Request action
+- Put the URL http://192.168.1.1/ [letter of color or pattern]
+	- Say R for Red, look at code (currentLine.endsWith("GET /R"))
+- Action to Perform with Response should be None
+
+---
 If you need additional help with this harass me on Twitter.
 =D
 
@@ -58,3 +70,10 @@ Useful links
 
 NeoPixel Guide
 https://learn.adafruit.com/adafruit-neopixel-uberguide?view=all
+
+---
+Looks
+
+<img src="https://i.imgur.com/oM1Nl4p.jpg" alt="Feather connection">
+
+<img src="https://i.imgur.com/Y1XwrDM.jpg" alt="NeoPixel connection">
