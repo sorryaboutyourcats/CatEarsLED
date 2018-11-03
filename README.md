@@ -38,7 +38,8 @@ Wiring the lights
 - Feather M0 - GND     ->  NeoPixel -
 - Feather M0 - PIN 6   ->  NeoPixel arrow pointing to middle
 
-[I'll have a photo of this up if needed.]
+<img src="https://i.imgur.com/oM1Nl4p.jpg" alt="Feather connection">
+<img src="https://i.imgur.com/Y1XwrDM.jpg" alt="NeoPixel connection">
 
 ---
 Loading up the web server
@@ -85,6 +86,6 @@ Other Links
 ---
 Looks
 
-<img src="https://i.imgur.com/oM1Nl4p.jpg" alt="Feather connection">
 
-<img src="https://i.imgur.com/Y1XwrDM.jpg" alt="NeoPixel connection">
+
+
