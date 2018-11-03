@@ -1,4 +1,4 @@
-LED Cat Ears Version 0.000000000000001
+LED Cat Ears Version 0.000000000000002
 
 <img src="https://i.imgur.com/RT1uAXD.jpg" alt="Lychi using the cat ears">
 
