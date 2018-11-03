@@ -82,10 +82,3 @@ Other Links
 
 - NeoPixel Guide
 	- https://learn.adafruit.com/adafruit-neopixel-uberguide?view=all
-
----
-Looks
-
-
-
-
