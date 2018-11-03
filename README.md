@@ -64,23 +64,23 @@ Setting up web requests in Mix It Up
 ---
 Useful products
 
-Arduino Starter Kit
-https://amzn.to/2yP02mt
+- Arduino Starter Kit
+	- https://amzn.to/2yP02mt
 
-Arduino For Dummies
-https://amzn.to/2SHC6d2
+- Arduino For Dummies
+	- https://amzn.to/2SHC6d2
 
-Soldering Iron
-https://amzn.to/2SHC6d2
+- Soldering Iron
+	- https://amzn.to/2SHC6d2
 
-Helping Hands
-https://amzn.to/2QhDXUj
+- Helping Hands
+	- https://amzn.to/2QhDXUj
 
 ---
 Other Links
 
-NeoPixel Guide
-https://learn.adafruit.com/adafruit-neopixel-uberguide?view=all
+- NeoPixel Guide
+	- https://learn.adafruit.com/adafruit-neopixel-uberguide?view=all
 
 ---
 Looks
