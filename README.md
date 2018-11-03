@@ -69,7 +69,7 @@ Useful products
 	- https://amzn.to/2yP02mt
 
 - Arduino For Dummies
-	- https://amzn.to/2SHC6d2
+	- https://amzn.to/2qq4cNd
 
 - Soldering Iron
 	- https://amzn.to/2SHC6d2
