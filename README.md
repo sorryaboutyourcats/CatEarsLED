@@ -62,11 +62,22 @@ Setting up web requests in Mix It Up
 - Action to Perform with Response should be None
 
 ---
-If you need additional help with this harass me on Twitter.
-=D
+Useful products
+
+Arduino Starter Kit
+https://amzn.to/2yP02mt
+
+Arduino For Dummies
+https://amzn.to/2SHC6d2
+
+Soldering Iron
+https://amzn.to/2SHC6d2
+
+Helping Hands
+https://amzn.to/2QhDXUj
 
 ---
-Useful links
+Other Links
 
 NeoPixel Guide
 https://learn.adafruit.com/adafruit-neopixel-uberguide?view=all
