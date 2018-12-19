@@ -50,5 +50,44 @@ Loading up the web server
 - Open 192.168.1.1 on your browser
 
 ---
+<<<<<<< HEAD
 If you need additional help with this harass me on Twitter.
 =D
+=======
+Setting up web requests in Mix It Up
+
+- Set up your board and all that good stuff
+- Add Command, Advanced Command
+- Add Web Request action
+- Put the URL http://192.168.1.1/ [letter of color or pattern]
+	- Say R for Red, look at code (currentLine.endsWith("GET /R"))
+- Action to Perform with Response should be None
+
+---
+Useful products
+
+- Arduino Starter Kit
+	- https://amzn.to/2yP02mt
+
+- Arduino For Dummies
+	- https://amzn.to/2qq4cNd
+
+- Soldering Iron
+	- https://amzn.to/2SHC6d2
+
+- Helping Hands
+	- https://amzn.to/2QhDXUj
+
+---
+Other Links
+
+- NeoPixel Guide
+	- https://learn.adafruit.com/adafruit-neopixel-uberguide?view=all
+
+---
+Looks
+
+
+
+
+>>>>>>> parent of b15609e... Update README.md
