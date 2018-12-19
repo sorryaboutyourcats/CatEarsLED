@@ -87,7 +87,12 @@ Other Links
 ---
 Looks
 
+<img src="https://i.imgur.com/oM1Nl4p.jpg" alt="Feather connection">
 
+<<<<<<< HEAD
 
 
 >>>>>>> parent of b15609e... Update README.md
+=======
+<img src="https://i.imgur.com/Y1XwrDM.jpg" alt="NeoPixel connection">
+>>>>>>> parent of f0b9e15... Update README.md
